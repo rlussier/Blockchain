@@ -40,7 +40,8 @@ class Blockchain
             return true;
         }
     }
-    BlockGeeksCoin.addBlock(new Block(1, "11/15/2017", { amount: 4 })); 
-
-    BlockGeeksCoin.addBlock(new Block(2, "11/15/2017", { amount: 8 }));
+    let BlockGeeksCoin = new Blockchain();
+    
+    BlockGeeksCoin.addBlock(new Block(1, "11/15/2018", { amount: 4 })); 
+    BlockGeeksCoin.addBlock(new Block(2, "11/15/2019", { amount: 8 }));
 }
