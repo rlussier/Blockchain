@@ -1,3 +1,5 @@
+using namespace std;
+
 class Blockchain    
 {
     //Section 1 Genesis block creation
